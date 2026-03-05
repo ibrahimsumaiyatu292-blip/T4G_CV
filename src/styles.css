@@ -1,0 +1,134 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+
+.header {
+  background-color: #b8a9d4;
+  padding: 14px 30px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.top-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #b8a9d4;
+  flex-shrink: 0;
+}
+
+.contact-info h2 {
+  font-size: 1rem;
+  color: #2c2c2c;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.contact-info p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.section {
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+}
+.section h2 {
+  font-size: 1rem;
+  color: #2c2c2c;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.degree {
+  color: #4a90d9;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.job-title {
+  color: #4a90d9;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job:last-child {
+  margin-bottom: 0;
+}
+
+
+ul, ol {
+  padding-left: 20px;
+  font-size: 0.9rem;
+  margin-top: 6px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.portfolio-grid {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.portfolio-item img {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.caption {
+  background-color: #fff8cc;
+  border-left: 3px solid #e8c840;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 5px;
+  width: 180px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background-color: #4a90d9;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.contact-btn:hover {
+  background-color: #357abd;
+}
